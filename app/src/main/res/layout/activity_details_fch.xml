@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsFCH">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Felipe Calderon Hall"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textColor="#167417"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:background="@drawable/dlsud_fch"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="Description"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:textColor="#167417"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="  The Felipe Calderon Hall is one of the buildings being used by the College of Education (CoEd). It is a one-storey structure that houses classrooms and offices of the CoEd and the Faculty Association."
+            android:layout_margin="10dp"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="About Felipe Calderon"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:textColor="#167417"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:background="@drawable/hf_felipe_calderon"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="      Felipe Calderon, a lawyer, statesman, and known as the 'Father of Malolos Constitution', was born in Santa Cruz de Malabon (now Tanza), Cavite on April 4, 1868, to Don Jose Gonzales Calderon and Doña Manuela Roca.\n\n
+        Calderon was the author of the Malolos Constitution, which was enacted on January 20, 1899 by the Malolos Congress that established the First Philippine Republic.\n\n
+        In 1899, Calderon founded two law universities. These are the Colegio de Abogados de Manila (School of Lawyers of Manila) and the Escuela de Derecho (School of Duties). He taught in both institutions. In 1904, he was appointed member of a commission to draft a proposed Penal Code. He also organized the La Protección de la Infancia, (The Protection of Infants), an institution that established humanitarian institution to protect and care for disadvantaged people.\n\n
+        He died on July 6, 1908 at the age of 40. His death was caused by intestinal obstruction while his body was weakened due to working long hours.\n\n
+
+                    Source: Philippine News Agency archives"
+            android:layout_margin="10dp"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/swipeRefreshLayout"
+    android:background="@drawable/bordergradient"
+    tools:context=".AccountMenu"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@drawable/bordergradient_upper">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="P R O F I L E"
+            android:textColor="@color/white"
+            android:textSize="35sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bordergradient_lower"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/EmailTitle"
+                android:layout_width="140dp"
+                android:layout_height="35dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:text="Email Address"
+                android:textColor="#167417"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/fullnameTitle"
+                android:layout_width="140dp"
+                android:layout_height="35dp"
+                android:layout_below="@+id/EmailTitle"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:text="Full Name:"
+                android:textColor="#167417"
+                android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/PhoneNoTitle"
+        android:layout_width="140dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/fullnameTitle"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Phone Number:"
+        android:textColor="#167417"
+        android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/txtEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="11dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="40dp"
+                android:layout_toEndOf="@+id/EmailTitle" />
+
+    <TextView
+        android:id="@+id/txtFirstName"
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/txtEmail"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="143dp"
+        android:layout_toEndOf="@+id/fullnameTitle" />
+
+    <TextView
+        android:id="@+id/txtPhoneNo"
+        android:layout_width="140dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/txtFirstName"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="90dp"
+        android:layout_toEndOf="@+id/PhoneNoTitle" />
+
+    <TextView
+        android:id="@+id/txtLastName"
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="74dp" />
+
+            <TextView
+                android:id="@+id/VerifyTitle"
+                android:layout_width="140dp"
+                android:layout_height="35dp"
+                android:layout_below="@+id/PhoneNoTitle"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:text="Account Status:"
+                android:textColor="#167417"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/VerificationTxt"
+                android:layout_width="130dp"
+                android:layout_height="33dp"
+                android:layout_below="@+id/txtPhoneNo"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="11dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="129dp"
+                android:layout_toEndOf="@id/VerifyTitle"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/VerifyBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="154dp"
+                android:layout_marginLeft="270dp"
+                android:background="@drawable/btn_login"
+                android:textColor="@color/yellow"
+                android:layout_marginRight="30dp"
+                android:text="Verify Now"
+                android:textAllCaps="true"
+                android:visibility="gone" />
+
+            <ListView
+                android:id="@+id/listviewAccountMenu"
+                android:layout_width="match_parent"
+                android:layout_height="380dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="200dp"
+                android:layout_marginBottom="-220dp"
+                 />
+        </RelativeLayout>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/round_corner"
+            android:elevation="2dp"
+            app:itemIconSize="30dp"
+            app:itemIconTint="@drawable/item_selector"
+            app:itemRippleColor="@android:color/transparent"
+            app:labelVisibilityMode="labeled"
+            app:menu="@menu/item_menu" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsCTH">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Candido Tirona Hall"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textColor="#167417"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:background="@drawable/dlsud_cth"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="Description"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:textColor="#167417"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="      The Candido Tirona Hall are the connected buildings being used by the College of Engineering, Architecture and Technology. It features laboratories and workshops, as well as facilities for engineering and architecture classes.\n\n
+   It was one of the oldest buildings in the University until the structure was fully upgraded to a new face in 2012 to support the fast-growing population of the university and serve as a temporary building for the College of Engineering and Architecture Technology. It is the former building of the Accountancy Department of the College of Business Administration."
+            android:layout_margin="10dp"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="About Candido Tirona"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:textColor="#167417"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/hf_candido_tirona"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="         Candido Mata Tirona (born August 29,1862) was a revolutionary general, secretary of war in Magdalo Council, and hero of the Battle of Binakayan. He was the older brother (step brother) of Daniel Tirona who was also a revolutionary general. Candido was the son of Don Estanislao Tirona and Juana Mata, who were known landowners in Cavite. Candido was studying at Manila when his father died, causing him to abandon his studies and attend to the extensive family properties, including rice lands, fishponds, salt beds, and oyster farms. He married Macaria Majaba Geronimo in 1885.\n\n
+
+        He joined the religious movement called the masonry and was later recruited to the Katipunan. He was a secretary of war under the Magdalo faction of the revolution, which was headed by Gen. Emilio Aguinaldo and Baldomero Aguinaldo. In July 1896, he accompanied Andres Bonifacio in tour of Cavite. He started the uprising in the province by disarming three civil guards in town. Tirona and the Kawit rebels and bolo men of Imus under the leadership of Jose Tagle launched an attack on the Spanish barracks and the friars estate house, which led to the capture of the Spaniards in the town.\n\n
+
+        He was one of those that participated on the Battle of Binakayan, at Cavite el Viejo (present day Kawit), Cavite which was fought from November 9 to 11, 1896, where the forces of Ramon Blanco were decisively defeated. Aside from Tirona, Emilio Aguinaldo, the commanding general, Pio del Pilar, Vito Belarmino, Crispulo Aguinaldo, Baldomero Aguinaldo, and Pantaleon Garcia took part in the battle. The Battle of Binakayan was the first decisive victory of the Emilio Aguinaldo-led Filipino revolutionaries over the Spaniards in Cavite.\n\n
+        On November 10, 1896, early morning, the Spaniards retaliated. Tirona's men was faced with the enemies. Tirona fell during the bayonet charge by a Spanish soldier and died immediately on the battle ground on November 10,1896.\n\n
+                    Source: Philippine News Agency archives"
+            android:layout_margin="10dp"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+</ScrollView>

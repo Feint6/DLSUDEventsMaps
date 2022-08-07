@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="6dp"
+    android:elevation="6dp"
+    app:cardUseCompatPadding="true"
+    android:layout_marginTop="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="35dp">
+
+        <TextView
+            android:id="@+id/userEmailText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="User Email"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/userCommentText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/userEmailText"
+            android:layout_marginLeft="10dp"
+            android:text="User Comment"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:layout_below="@+id/userCommentText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="173dp"
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                android:textColor="@color/yellow"
+                android:id="@+id/DeleteBtn"
+                android:textSize="16sp"
+                android:background="@drawable/btn_delete"/>
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "890299723103",
+    "firebase_url": "https://mysolproject-f3f18-default-rtdb.firebaseio.com",
+    "project_id": "mysolproject-f3f18",
+    "storage_bucket": "mysolproject-f3f18.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890299723103:android:052df5184ff44332579aea",
+        "android_client_info": {
+          "package_name": "com.example.loginregisterauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "890299723103-36snq86ki51b89529mesjmko69fd8836.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNJpHb_rgPjRAY_Q1ZeWfZc7OLtHRBXro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "890299723103-36snq86ki51b89529mesjmko69fd8836.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

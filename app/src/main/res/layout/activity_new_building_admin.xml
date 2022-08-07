@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewBuildingAdmin"
+    android:padding="16dp">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnchoose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#167417"
+        android:padding="5dp"
+        android:text="Choose file"
+        android:textColor="@color/yellow" />
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@+id/btnchoose"
+        android:layout_marginTop="5dp"
+        />
+
+    <EditText
+        android:id="@+id/txtbldgname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_view"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="3dp"
+        android:hint="Enter building name" />
+
+    <EditText
+        android:id="@+id/txtbldgdesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtbldgname"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="3dp"
+        android:hint="Enter building description" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnupload"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="29dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/returnbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@null"
+        android:text="Return"
+        android:textColor="@drawable/btn_others"
+        android:textSize="16sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnupload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_login"
+        android:padding="5dp"
+        android:text="Upload"
+        android:textColor="@color/yellow"
+        android:textSize="19sp" />
+
+
+    <TextView
+        android:id="@+id/tvshowupload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnupload"
+        android:layout_alignBottom="@+id/btnupload"
+        android:layout_toEndOf="@+id/btnupload"
+        android:layout_marginStart="25dp"
+        android:gravity="center"
+        android:text="Show Buildings"
+        android:textColor="@color/teal_700"
+        android:textSize="16sp" />
+
+
+</RelativeLayout>

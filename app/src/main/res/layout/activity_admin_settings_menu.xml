@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bordergradient"
+    android:orientation="vertical"
+    tools:context=".AdminSettingsMenu">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@drawable/bordergradient_upper">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="S E C U R I T Y"
+            android:textColor="@color/white"
+            android:textSize="35sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bordergradient_lower"
+        android:orientation="vertical">
+        <ListView
+            android:id="@+id/listviewAdminSettingsMenu"
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="-2dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="3dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/settingsAdminReturnBtn"
+            android:layout_width="325dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="-50dp"
+            android:background="@drawable/btn_login"
+            android:text="Return"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:textColor="@color/yellow" />
+    </LinearLayout>
+
+</LinearLayout>

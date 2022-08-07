@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:elevation="6dp"
+    app:cardUseCompatPadding="true"
+    android:layout_marginTop="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/aTopic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Topic of Announcement"
+            android:textColor="#167417"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/aSender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/aTopic"
+            android:layout_marginLeft="10dp"
+            android:text="Sender of Announcement"
+            android:textColor="@color/quantum_grey700"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/aMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/aSender"
+            android:layout_marginLeft="10dp"
+            android:text="Announcement"
+            android:textColor="#000"
+            android:textSize="23sp"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:layout_below="@+id/aMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="155dp"
+                android:layout_height="wrap_content"
+                android:text="Edit"
+                android:textColor="@color/yellow"
+                android:background="@drawable/bg_login"
+                android:textAllCaps="false"
+                android:layout_marginRight="5dp"
+                android:id="@+id/EditBtn"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="155dp"
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                android:textColor="@color/yellow"
+                android:background="#BA0F30"
+                android:textAllCaps="false"
+                android:layout_marginLeft="3dp"
+                android:id="@+id/DeleteBtn"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

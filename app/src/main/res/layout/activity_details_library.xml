@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapPlaceDetails">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Aklatang Emilio Aguinaldo"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textColor="#167417"
+            android:textStyle="bold"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:background="@drawable/dlsud_library"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="Description"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:textColor="#167417"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="  The Aklatang Emilio Aguinaldo - Information Resource Center (AEA-IRC) is De La Salle University's primary source of resource materials and services for research and development.\n
+    \n  With a wide collection of books, periodicals, journals from local and international sources, it continuously updates and upgrades its collection to meet the growing needs of the Lasallian community.\n
+
+    \n  With facilities and new technologies, it continues to promote innovation and interaction among students, faculty members and guests to improve its services."
+            android:layout_margin="10dp"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="A Brief History"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:textColor="#167417"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="      The humble beginnings of the Aklatang Emilio Aguinaldo Information Resource Center (AEA-IRC) can be traced from the time General Emilio Aguinaldo College (GEAC) Dasmariñas Campus was established on July 18,1977. It started with a classroom-sized library with two library staff. It was transferred to the administration building in 1978. The opening of the College of Medicine in 1979 led the GEAC administrators to creating two separate libraries, the medical library and the undergraduate library.\n\n
+
+    In 1981, the medical library was transferred to the 2nd floor of Building 2 at the East Campus. The transfer of the College of Medicine to the University Medical Center compound in 1986 gave more room for the GEAC undergraduate library. On August 1, 1991, the groundbreaking of the new library building was held. The late Bishop Felix Perez led the ceremonies. The building, which was patterned after the Aguinaldo shrine in Kawit, Cavite was the brainchild of Br. Andrew Gonzales. It was designed by Arch. Roberto Estanislao. The construction of the building was awarded to Engr. Perry Piccio of Constar Construction. On April 30, 1992, the new Aklatang Emilio Aguinaldo - Information Resource Center was inaugurated.\n\n
+
+    Construction of the new library building was made possible through the leadership of Br. Rafael S. Donato, FSC, president and Dr. Oscar O. Bautista, executive vice president. The increasing population of De La Salle University-Dasmariñas prompted the construction of a library extension. The new building was designed by Arch. Ernesto Reyes and the construction was awarded to H. L. Carlos.\n\n
+
+    The architectural design of the Aklatang Emilio Aguinaldo - Information Resource Center (AEA-IRC) was a replica of the Aguinaldo Shrine in Kawit, the home of the first Philippine President General Emilio Aguinaldo. The facade of AEA-IRC contributed to the historical aura of the Museum complex a cultural zone envisioned by Br. Andrew Gonzales, FSC. The interiors of the building create a classic design that replicates a 19th century architecture. Moreover, the AEA-IRC rooms were named after the 13 martyrs of Cavite to commemorate the heroism and the contribution the Caviteños played in Philippine history."
+            android:layout_margin="10dp"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+</ScrollView>

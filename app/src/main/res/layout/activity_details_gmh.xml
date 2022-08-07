@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsGMH">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Gregoria Montoya Hall"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textColor="#167417"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:background="@drawable/dlsud_gmh"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="Description"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:textColor="#167417"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="      Named after a heroine during the Revolution, this is more known as the Administration building. It houses most administrators' offices. The Registrar's, the Accounting, the Purchasing, and Internal Audit offices are based here. In addition, most student organizations hold office in this building, namely: the University Student Council, the Heraldo Filipino (official student publication), the Council of Student Organizations, and the Performing Arts Group."            android:layout_margin="10dp"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="About Gregoria Montoya"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:textColor="#167417"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:background="@drawable/hf_gregoria_montoya"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="      Gregoria Montoya was born to peasant parents, Atanario Montoya and Jacoba Patricio, on November 28, 1863, in Batong Dalig, Barrio Tabon, Kawit, Cavite. Gregoria, or Goria according to some accounts, is memorialized in the annals of Philippine history as the woman general who led the Katipunan revolutionaries in the campaign against the Spanish troops in her hometown of Kawit.\n\n
+    Like many of the women fighters during the Philippine Revolution, it was her husband’s death that prompted Goria to participate in the frontlines of the struggle for liberation. She was first married to Cirilo Ayson and bore four children with him. When her first husband died, she eventually married Pedro Cacpal, who was a Katipunero. When the revolution against the Spanish broke out in 1896, Goria did not hesitate to join the cause. In recognition of her contribution to the cause, she was elevated to the rank of generala herself. It was said that General Emilio Aguinaldo himself favored her as a sharp-shooter.\n\n
+    Gregoria took part in various attacks on Spanish strongholds and encounters in various Cavite towns. Her most notable involvement was in November of 1896, during the Battle of Binakayan in Kawit, Cavite. With 'a bolo on one hand and the Katipunan flag in the other', she led a unit of thirty revolutionaries against the Spanish forces. They were given the task of delaying the incoming troops of General Ramon Blanco. Gregoria and her troops dutifully followed the command of General Aguinaldo to destroy the wooden bridge across Mabolo River, which connected Binakayan and Bacoor, which was the target of Blanco in order to quell the uprising in Cavite.\n\n
+        Her unit also provided reinforcements for the Katipuneros under the command of General Luciano San Miguel. It was during this battle that cost Gregoria her Life when she was struck down by a cannonball while she was giving orders to her troops. Gregoria Montoya will be continuously remembered as one of the women who took up arms against the Spanish colonizers in defense of the motherland.\n\n
+
+            Source: Philippine News Agency archives"
+            android:layout_margin="10dp"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+</ScrollView>
